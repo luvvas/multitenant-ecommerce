@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate:types": "bunx --bun payload generate:types --disable-transpile"
+    "generate:types": "bunx --bun payload generate:types --disable-transpile",
+    "db:fresh": "bunx --bun payload migrate:fresh --disable-transpile"
   },
   "dependencies": {
     "@base-ui/react": "^1.2.0",
